@@ -1,0 +1,39 @@
+# Go build artifacts
+/bin/
+/obj/
+/vendor/
+
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+vendor/
+
+# Environment variables file
+.env
+
+# Docker files
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.dev.yml
+Dockerfile
+
+# IDE and editor files
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+*.vscode/
+
+# Go module files
+go.sum
+
+# Temporary files
+*.tmp
+*.log
+
+# Ignore any other files you want to exclude
